@@ -1,0 +1,11 @@
+FROM python:3
+
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+
+RUN wget https://github.com/AndyCoveo/vegeta/releases/download/target/vegeta-linux-amd64
+RUN chmod +x vegeta-linux-amd64
+RUN cp vegeta-linux-amd64 /bin/vegeta
+COPY microchallenges/ .
+
+ENTRYPOINT [ "python", "./__main__.py", "water"]

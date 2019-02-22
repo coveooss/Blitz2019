@@ -1,0 +1,31 @@
+{
+  "name": "@germainbergeron/blitz-2019-ui",
+  "version": "0.1.21",
+  "dependencies": {
+    "@types/node": "^10.9.4",
+    "@types/react": "^16.7.13",
+    "@types/react-dom": "^16.0.11",
+    "@types/underscore": "^1.8.9",
+    "konva": "^2.5.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-konva": "^16.6.3",
+    "typescript": "^3.2.2",
+    "underscore": "^1.9.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "main": "build/dist/index.js",
+  "devDependencies": {
+    "@types/enzyme": "^3.1.15",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/jest": "^23.3.10",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "enzyme-to-json": "^3.3.5",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5"
+  }
+}

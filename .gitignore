@@ -1,0 +1,10 @@
+__pycache__
+node_modules
+test-reports
+.vscode
+.idea
+test.json
+tests/testout
+.DS_store
+.mypy_cache
+*.pyc
